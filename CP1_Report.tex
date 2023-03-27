@@ -1,0 +1,125 @@
+\documentclass[12pt]{article}%
+\usepackage{amsmath,amssymb,amsthm,amsfonts}
+\usepackage{wasysym}
+\usepackage{graphicx}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{stackengine}
+\def\stackalignment{l}
+\usepackage[colorlinks]{hyperref}
+\usepackage{tikz}
+\usepackage[export]{adjustbox}
+
+%\usepackage{geometry}
+%\geometry{top = 0.9in}
+\usepackage{appendix}
+
+\newcounter{subfigure}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\C}{\mathbb{C}}
+\newcommand{\N}{\mathbb{N}}
+\renewcommand{\S}{\mathbb{S}^1}
+\renewcommand{\Re}{\text{Re}}
+\newcommand{\ea}{\textit{et al. }}
+\renewcommand{\epsilon}{\varepsilon}
+\renewcommand{\th}{\text{th}}
+\newcommand{\sgn}{\operatorname{sgn}}
+
+\renewcommand{\setminus}{\smallsetminus}
+
+\newtheorem{thm}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+\definecolor{red}{rgb}{0.8500, 0.3250, 0.0980}
+\definecolor{green}{rgb}{0.4660, 0.6740, 0.1880}
+\definecolor{yellow}{rgb}{0.9290, 0.6940, 0.1250}
+\definecolor{blue}{rgb}{0, 0.4470, 0.7410}
+
+
+\begin{document}
+
+\title{Coding Project 1:  Detecting objects through frequency signatures}
+
+\author{Your Name}
+\date{}
+
+\maketitle
+
+
+\begin{abstract}
+{\color{red} [[Short abstract (5 or 6 sentences) stating in plain language what you did in the project.]]}
+\end{abstract}
+
+
+\section{Introduction}
+\label{Sec: Intro}
+
+{\color{red} [[1 to 2 paragraphs {\color{blue} (this is much shorter than what you will see in actual articles, but I also don't want you all to spend too much time on this)} on the history of radar detection and how it has benefited society.  No need to reference anything, just want you to get into the habit of thinking about science from a historical/societal aspect.  Also, feel free to get this from the book and wikipedia, just paraphrase to avoid plagiarism.]]}
+
+\bigskip
+\bigskip
+
+{\color{red} [[1 paragraph outlining the remainder of the report.]]}
+
+
+\section{Theoretical Background}
+
+{\color{red}[[A sentence or two on what you'll talk about in this section.]]}
+
+
+\subsection{The Fourier Series}
+
+{\color{red}[[Couple of paragraphs going over the derivation of the Fourier series and add some exposition explaining the derivation.  This can be taken directly from the book/lecture, but paraphrase to avoid plagiarism.]]}
+
+
+\subsection{The Fourier Transform}
+
+{\color{red}[[Couple of paragraphs going over the derivation of the Fourier transform and add some exposition explaining the derivation.  This can be taken directly from the book/lecture, but paraphrase to avoid plagiarism.]]}
+
+
+\subsection{The Fast Fourier Transform}
+
+{\color{red}[[We didn't do the derivation in class, so just write one paragraph on why this is important and what function on either MATLAB or Python you would use to carry out FFT.]]}
+
+
+\subsection{Spectral Averaging}
+
+{\color{red}[[A paragraph on why we average and what it does to white noise.]]}
+
+
+\subsection{Spectral Filtering}
+
+{\color{red}[[Couple of paragraphs on filtering.  Some of the grad students will naturally know more about this than I do, so please feel free to add things that go beyond the lecture.]]}
+
+
+\section{Numerical Methods}
+
+{\color{red}[[Explain in detail what the code does (about 5 or so paragraphs based on the number of distinct steps that are necessary).   Feel free to break this up in sections or keep it all in one section.]]}
+
+
+\section{Results}
+
+{\color{red}[[Put your result plots and tables here.  Explain the plots and tables (a paragraph for each).  Make sure the caption for your figure can be understood without having to read the exposition.]]}
+
+
+\section{Conclusion}\label{Sec: Conclusion}
+
+{\color{red}[[A paragraph summarizing the report.]]}
+
+
+{\color{red}[[1 paragraph:  What are some things you learned from the project.  What are some drawbacks of this technique.]]}
+
+
+\section*{Acknowledgment}
+
+{\color{red}[[You are welcome to get help on the project from others:  students in the class, TAs, stack overflow, etc.  Just make sure to thank anyone who helped you on the project.  If you truly didn't get any help from anyone, please feel free to skip this section.]]}
+
+
+\bigskip
+\bigskip
+\bigskip
+
+{\color{red}[[Don't worry about references.]]}
+
+
+\end{document}
